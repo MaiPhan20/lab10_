@@ -92,11 +92,23 @@ body{
     width: 30px;
 
 }
-#main #right  .menu_right ul{
-    margin: 15px 0px 0px 0px;
-    padding: 0px;
-    border : 1px solid #ccc;
+#main #right .menu_right  ul  li{
+    display: block;
+    text-decoration: none;
+  line-height: 32px;
+    border-bottom:1px solid #ccc ;
+    color: red;
+    margin: 10px;
 }
-#main #right .menu_right ul li{
-    list-style: none ;
+#main #right .menu_right ul :hover{
+    background-color: #c3e6e5;
+
+}
+#main #right1 .menu_right2 ul li{
+    display: block;
+    text-decoration: none;
+   line-height: 20px;
+    border-bottom:1px solid #ccc ;
+    color: black;
+    margin: 10px;
 }
