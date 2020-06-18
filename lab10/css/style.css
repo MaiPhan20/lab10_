@@ -5,37 +5,44 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0px;
+
+
 }
 #Menu_top{
     background: #9e9b96;
     height: 40px;
     width: 940px;
     margin-top: 0px;
+
 }
 #banner{
     height: auto;
     width: 940px;
     margin-bottom: 0px;
+    line-height: 0px;
 }
 #main #left{
     width: 670px;
     float: left;
     min-height: 400px;
+    background-color: #FFFFFF;
 
 }
 #main #right{
     width: 270px;
     float: left;
-    min-height: 300px;
+    background-color: #FFFFFF;
+    min-height: 552.5px;
 }
 #footer {
     background: #a09d98;
-    width: 940px;
+    width: 910px;
     text-align: center;
     height: 60px;
     color: #FFF;
     clear: left;
     height: 30px;
+    padding: 7.5px 0px 20px 30px ;
 }
 #Menu_top ul{
     margin: 0px;
@@ -91,6 +98,8 @@ body{
     color: White;
     width: 30px;
 
+
+
 }
 #main #right .menu_right  ul  li{
     display: block;
@@ -111,4 +120,5 @@ body{
     border-bottom:1px solid #ccc ;
     color: black;
     margin: 10px;
+
 }
